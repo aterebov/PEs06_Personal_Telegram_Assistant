@@ -28,7 +28,7 @@ pip install -r requirements.txt
   Код интеграции: [`main_open_ai.py`](main_open_ai.py)
 
 - **LLM GigaChat с библиотекой LangChain:**  
-  Код интеграции: [`main_giga.py`](https://main_giga.py)
+  Код интеграции: [`main_giga.py`](main_giga.py)
 
 - **LLM OpenAI:**  
   Код интеграции: [`main_lang.py`](main_lang.py)
@@ -40,13 +40,7 @@ pip install -r requirements.txt
 
 ## Важно!
 
-Секреты (API Keys, passwords) бот получает из переменных окружения, которые инициализируются при старте бота из текстового файла `.env`.
-
-**Формат строки файла `.env`:**
-
-```
-КЛЮЧ=значение
-```
+Секреты (api keys, passwords) бот получает из переменных окружения, которые, при старте бота, инициализируются из текстового файла `.env`.
 
 **Пример файла `.env`:**
 
